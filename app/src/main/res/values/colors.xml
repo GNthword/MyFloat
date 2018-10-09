@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mi_transparent">#FF0099EE</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="light_blue">#FF4CBEEF</color>
+    <color name="pure_blue">#FF0099EE</color>
+    <color name="light_yellow">#FFFF9003</color>
+    <color name="light_dark">#FF4CBEEF</color>
+
+    <color name="bg">#FFF6F6F6</color>
+    <color name="icon_color">#FF4CBEEF</color>
+
+
+    <color name="dialog_outside_background_color">#7F000000</color>
+    <color name="dialog_background_color">#FFF3F3F3</color>
+    <color name="dialog_btn_press_bg">#FFE0E0E0</color>
+    <color name="divider_line_color">#FFE0E0E0</color>
+</resources>

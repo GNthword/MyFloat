@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyFloat</string>
+
+    <string name="dialog_title">提示</string>
+    <string name="dialog_btn_ok">确定</string>
+    <string name="dialog_btn_cancel">取消</string>
+
+    <string name="permission_need_system_alter_dialog">需要获取悬浮窗权限</string>
+    <string name="permission_get_system_alter_dialog_failed">悬浮窗权限获取失败</string>
+
+    <string name="permission_need_write_external_storage">需要获取外部存储权限</string>
+    <string name="permission_get_write_external_storage_failed">外部存储权限获取失败</string>
+
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.milog.test.myfloat.common.MiloDialog
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:milo="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_dialog_background"
+    milo:width_percent="0.8"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:height="@dimen/dialog_title_height"
+        />
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_line_color"
+        />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:minHeight="@dimen/dialog_content_min_height"
+        >
+
+        <com.milog.test.myfloat.view.TypeSetTextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_line_color"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_bottom_height"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/dialog_btn_cancel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_font_size_small"
+            android:gravity="center"
+            android:background="@drawable/common_dialog_left_btn_background"
+            />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="@dimen/divider_line_width"
+            android:layout_height="match_parent"
+            android:background="@color/divider_line_color"
+            android:layout_marginTop="@dimen/divider_line_margin_top"
+            android:layout_marginBottom="@dimen/divider_line_margin_bottom"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/dialog_btn_ok"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_font_size_small"
+            android:gravity="center"
+            android:background="@drawable/common_dialog_right_btn_background"
+            />
+
+    </LinearLayout>
+
+</com.milog.test.myfloat.common.MiloDialog>
