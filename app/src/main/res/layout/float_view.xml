@@ -13,12 +13,34 @@
         />
 
     <Button
-        android:id="@+id/btn_start"
+        android:id="@+id/btn_start_app"
         android:layout_width="64dp"
         android:layout_height="32dp"
         android:gravity="center"
         android:background="@drawable/common_dialog_one_btn_background"
-        android:text="@string/start"
+        android:text="@string/third_app_start"
+        android:textSize="@dimen/text_font_size_large"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_start_click"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:background="@drawable/common_dialog_one_btn_background"
+        android:text="@string/click_start"
+        android:textSize="@dimen/text_font_size_large"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:background="@drawable/common_dialog_one_btn_background"
+        android:text="@string/float_close"
         android:textSize="@dimen/text_font_size_large"
         android:visibility="gone"
         />
